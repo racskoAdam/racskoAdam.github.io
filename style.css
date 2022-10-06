@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+    background-color: #FBEED8;
+    width: 100%;
+}
+
+h1{
+    color:#1F5B25;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.navbar{
+    background-color: #1F5B25;
+}
+
+.navbar-brand{
+    color: white;
+    margin-right: 70px;
+}
+
+.banner{
+    background-image: url('img/banner.jpg');
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.card-title{
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h5{
+    color: #1F5B25;
+}
+
+.card:hover{
+box-shadow: 0px 0px 5px #1F5B25;
+}
+
+footer{
+    background-color: #1F5B25;
+    width: inherit;
+    color: #FFF;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.container{
+    padding: 12px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+
+.modal-header{
+    background-color: #1F5B25;
+}
+
+.modal-body{
+    background-color: #FBEED8;
+}
+
+.modal-title{
+    color: white;
+}
+
+#home{
+    background-image: url('img/homebg-min.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro{
+    color: white;
+    height: 100vh;
+}
+
+.intro h1{
+    color: white;
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.blog-img{
+    border: 1px solid #1F5B25;
+    border-radius: 4px;
+}
+
+.blog-title{
+    color: #1F5B25;
+}
+
+.szerzo{
+    text-align: right;
+    font-style: italic;
+}

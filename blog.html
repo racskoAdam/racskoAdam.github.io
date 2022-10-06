@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lucky kávézó - Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="icons/clover.svg" alt="">
+                    Lucky
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
+                    <a class="nav-link" href="kavefajtak.html">Kávéfajták</a>
+                    <a class="nav-link" href="sutemenyek.html">Sütemények</a>
+                    <a class="nav-link active" href="blog.html">Blog</a>
+                </div>
+                </div>
+            </div>
+        </nav> 
+        <div class="banner"></div>
+    </div>  
+    
+    <div class="container">
+        <h1 class="my-5">Lucky - Blog</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/kavezo.jpg" alt="" class="img-fluid blog-img">
+        </div>
+          <div class="col-md-8">
+            <h2 class="blog-title pt-2">Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iusto voluptatem rem, itaque, tenetur minus labore ullam, accusamus nemo quis cum voluptatum iste accusantium libero. Nemo ullam doloremque est repudiandae.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt et modi saepe sunt ex ab repellat odit consectetur nisi enim dolorum, nihil unde quo beatae maxime, nobis illo reprehenderit obcaecati.
+            </p>
+            <a href="cikkek/reggel.html"><button type="button" class="btn btn-outline-success my-4">Elolvasom</button></a>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8">
+              <h2 class="blog-title pt-2">Lorem ipsum dolor sit.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iusto voluptatem rem, itaque, tenetur minus labore ullam, accusamus nemo quis cum voluptatum iste accusantium libero. Nemo ullam doloremque est repudiandae.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt et modi saepe sunt ex ab repellat odit consectetur nisi enim dolorum, nihil unde quo beatae maxime, nobis illo reprehenderit obcaecati.
+              </p>
+              <a href="cikkek/reggel.html"><button type="button" class="btn btn-outline-success my-4">Elolvasom</button></a>
+            </div>
+            <div class="col-md-4">
+                <img src="img/kavezo.jpg" alt="" class="img-fluid blog-img">
+            </div>
+          </div>
+
+
+    </div>
+    <footer class="row mt-5">
+      <div class="col-sm-6 col-lg-4 offset-lg-1">
+        <h2>Elérhetőség</h2>
+      <ul>
+        <li><img src="icons/at2.svg"  class="icon" alt="">asd@asd.asd</li>
+        <li><img src="icons/mail.svg"  class="icon" alt="">Makó Pósta utca 4-6</li>
+        <li><img src="icons/telephone.svg"  class="icon" alt="">06 (30) 123-4567</li>
+      </ul>
+       </div>
+      <div class="col-sm-6 col-lg-4 offset-lg-1">
+        <h2>Feliratkozás hírlevélre</h2>
+
+        <form action="">
+            <div class="input-group mb-3 px-3">
+                <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2" id="email">
+                <button class="btn btn-outline-light" type="button" id="button-addon2" onclick="feliratkozas()";>Feliratkozás</button>
+              </div>
+        </form>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

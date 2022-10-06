@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lucky kávézó - Kávéfajták</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="icons/clover.svg" alt="">
+                    Lucky
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
+                    <a class="nav-link active" href="kavefajtak.html">Kávéfajták</a>
+                    <a class="nav-link" href="sutemenyek.html">Sütemények</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </div>
+                </div>
+            </div>
+        </nav> 
+        <div class="banner"></div>
+    </div>  
+    
+    
+    <div class="container">
+        <div class="row">
+            <h1 class="my-5">Lucky - Kávéfajták</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#cappuchinoModal">
+                  <div class="card h-100">
+                    <img src="img/kave1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cappuchino</h5>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/kave2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cappuchino</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/kave3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Espresso</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/kave4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Latte</h5>
+                    </div>
+                  </div>
+                </div>           
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/kave5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                        <div class="card h-100">
+                            <img src="img/kave6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tejeskávé</h5>
+                            </div>
+                        </div>
+                </div>
+                
+        </div>    
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="cappuchinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cappuchino</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                  <img src="img/kave1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="col-sm-8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus molestiae ratione hic placeat vel quia architecto earum eum voluptatum. Optio rerum quod dignissimos rem veniam repudiandae qui facere autem in?</p>
+                <p>Quidem consectetur eveniet architecto unde. Sequi veritatis itaque eius nam quam ut, corrupti nesciunt reiciendis animi accusantium consequuntur reprehenderit architecto culpa quasi quae. Placeat numquam eaque, amet odio quaerat ut!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="row mt-5">
+      <div class="col-sm-6 col-lg-4 offset-lg-1">
+        <h2>Elérhetőség</h2>
+      <ul>
+        <li><img src="icons/at2.svg"  class="icon" alt="">asd@asd.asd</li>
+        <li><img src="icons/mail.svg"  class="icon" alt="">Makó Pósta utca 4-6</li>
+        <li><img src="icons/telephone.svg"  class="icon" alt="">06 (30) 123-4567</li>
+      </ul>
+       </div>
+      <div class="col-sm-6 col-lg-4 offset-lg-1">
+        <h2>Feliratkozás hírlevélre</h2>
+
+        <form action="">
+            <div class="input-group mb-3 px-3">
+                <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2" id="email">
+                <button class="btn btn-outline-light" type="button" id="button-addon2" onclick="feliratkozas()";>Feliratkozás</button>
+              </div>
+        </form>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
