@@ -1,15 +1,15 @@
-#Lucky kávézó
+#Lucky kávézó#
 
-##Források:
+##Források:##
 -első kép forrása:
 
-##Hivatkozások:
+##Hivatkozások:##
 1. html validálás: https://validator.w3.org/
 2. css validálás: https://jigsaw.w3.org/css-validator/
 3. képkompresszió: https://imagecompressor.com/
 
 
-###Példakód
+###Példakód###
 `<br>`
 
 ```css
@@ -18,7 +18,7 @@
     }
 ```
 
-##Kiemelés
+##Kiemelés##
 _dőlt_
 __félkövér__
 
