@@ -28,3 +28,6 @@ __félkövér__
 |Nagy   |Lajos    |fotós   |
 
 
+![alt text](https://i1.sndcdn.com/artworks-EC5k5lHzgHPLsyzW-Uxz2Qg-t500x500.jpg)
+
+
